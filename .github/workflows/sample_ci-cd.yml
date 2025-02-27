@@ -1,6 +1,6 @@
 name: CI workflow
 On:
-  Push
+  Push:
     branches:
       - main
 jobs:
