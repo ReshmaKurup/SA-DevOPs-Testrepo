@@ -4,8 +4,8 @@ On:
     branches:
       - main
 jobs:
-  - my job
-    runs-on: ubuntu-latest
+  - my-job:
+    runs-on: Ubuntu-latest
     steps:
       - name: my first step
         run: echo " Hello World! "
